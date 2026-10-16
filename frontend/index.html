@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demy Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Demy Hotel Booking</h1>
+      <section id="rooms">
+        <h2>Rooms</h2>
+        <div id="rooms-list"></div>
+      </section>
+
+      <section id="book">
+        <h2>Make a Booking</h2>
+        <form id="booking-form">
+          <label>Room
+            <select id="room-select"></select>
+          </label>
+          <label>Guest name
+            <input id="guest-name" required />
+          </label>
+          <label>Check in
+            <input id="check-in" type="date" required />
+          </label>
+          <label>Check out
+            <input id="check-out" type="date" required />
+          </label>
+          <button type="submit">Book</button>
+        </form>
+        <div id="booking-result"></div>
+      </section>
+
+      <section id="my-bookings">
+        <h2>All Bookings</h2>
+        <div id="bookings-list"></div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

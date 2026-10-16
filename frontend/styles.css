@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+.container { max-width: 800px; margin: 0 auto; }
+.room, .booking { padding: 8px; border-bottom: 1px solid #eee; }
+label { display: block; margin: 6px 0; }
+button { margin-top: 8px; }
